@@ -6,7 +6,7 @@ public interface GameShortProjection {
 
     String getTitle();
 
-    Integer getYear();
+    Integer getGameYear();
 
     String getImageUrl();
 

@@ -25,7 +25,7 @@ public class GameShortDto {
     public GameShortDto(GameShortProjection projection) {
         id = projection.getId();
         title = projection.getTitle();
-        year = projection.getYear();
+        year = projection.getGameYear();
         imageUrl = projection.getImageUrl();
         shortDescription = projection.getShortDescription();
     }
